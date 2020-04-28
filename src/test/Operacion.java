@@ -4,10 +4,10 @@ public class Operacion {
 	double n1;
     double n2;
     double res;
+    double sum;
     char operacion;
 
-    
-    public Operacion(double n1, double n2, char operacion) {
+	public Operacion(double n1, double n2, char operacion) {
         
         this.n1 = n1;
         this.n2 = n2;
@@ -52,4 +52,12 @@ public class Operacion {
     public void setRes(double res) {
         this.res = res;
     }
+    public double getSum() {
+		return sum;
+	}
+    
+	public void setSum(double sum) {
+		this.sum = sum;
+	}
+
 }
